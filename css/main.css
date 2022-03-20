@@ -1608,7 +1608,9 @@ header .logo a {
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
 }
-
+.col-twelve{
+	margin-top: 2.45rem;
+}
 /**
  * responsive:
  * about
