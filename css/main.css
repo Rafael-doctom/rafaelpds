@@ -1613,11 +1613,11 @@ header .logo a {
 		height: 6.6rem;
 		width: 6.6rem;
 		float: none;
-		display: inline-block;
+		display: none;
 	}
 	.intro-info .lead {
 		padding-left: 0;
-		text-align: center;
+		text-align: left;
 	}
 }
 
