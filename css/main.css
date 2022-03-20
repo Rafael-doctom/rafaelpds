@@ -1603,7 +1603,7 @@ header .logo a {
 	text-align: center;
 }
 .button-section .button {
-	width: 250px;
+	width: 280px;
 }
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
@@ -1740,6 +1740,7 @@ header .logo a {
 	position: relative;
 	padding-bottom: 1.8rem;
 }
+
 #resume .timeline-content h4::after {
 	content: "";
 	display: block;
