@@ -1409,6 +1409,44 @@ header .logo a {
 	margin: 0;
 	padding: 0;
 }
+
+.darkModeItems{
+	display: block;
+	position: absolute;
+	right: 15px;
+	bottom: 7.2rem;
+	bottom: 10px;
+	font-size: 3.3rem;
+}
+
+.darkModeItems ul{
+	list-style: none;
+}
+
+.darkModeItems ul li{
+	margin: 1rem 0;
+	border: none;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 10%;
+}
+
+.darkModeItems ul li:nth-child(1) {
+	background-color: red;
+}
+
+.darkModeItems ul li:nth-child(2) {
+	background-color: blue;
+}
+
+.darkModeItems ul li:nth-child(3) {
+	background-color: yellow;
+}
+
+.darkModeItems ul li:nth-child(4) {
+	background-color: #cc005f;
+}
+
 .intro-social li {
 	display: inline-block;
 	margin: 0 20px;
