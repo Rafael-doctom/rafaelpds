@@ -1431,6 +1431,11 @@ header .logo a {
 	border-radius: 10%;
 }
 
+.darkModeItems ul li:hover{
+	border:2px solid #ffffff;
+	cursor: pointer;
+}
+
 .darkModeItems ul li:nth-child(1) {
 	background-color: red;
 }
@@ -1608,8 +1613,8 @@ header .logo a {
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
 }
-.col-twelve{
-	margin-top: 2.45rem;
+#moreButton{
+	margin-top: 5.45rem;
 }
 /**
  * responsive:
@@ -1659,6 +1664,11 @@ header .logo a {
 		padding-left: 0;
 		text-align: left;
 	}
+
+	.darkModeItems{
+		display: none;
+	}
+	
 }
 
 /** 
@@ -2425,7 +2435,8 @@ header .logo a {
 	width: 100%;
 }
 #message-warning {
-	color: #fa0003;
+	/* color: #fa0003; */
+	color: white;
 }
 #message-success {
 	color: #FF0077;
