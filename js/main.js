@@ -254,7 +254,7 @@
 		      error: function() {
 
 		      	sLoader.fadeOut(); 
-		      	$('#message-warning').html("Validando formulário ainda. Aguarde!");
+		      	$('#message-warning').html("Validando formulário ainda. Aguarde! Você pode entrar em contato através do e-mail: dasilva.rafaelpt@gmail.com");
 		         $('#message-warning').fadeIn();
 
 		      }
