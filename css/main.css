@@ -1295,8 +1295,8 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+#intro{
+	/* background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1308,6 +1308,23 @@ header .logo a {
 	position: relative;
 	text-align: center;
 }
+
+.nthChild1{
+	background: #cc005f url('') no-repeat center bottom;
+}
+
+.nthChild2{
+	background: red url('') no-repeat center bottom;
+}
+
+.nthChild3{
+	background-color: blue;
+}
+
+.nthChild4{
+	background-color: purple;
+}
+
 .intro-overlay {
 	position: absolute;
 	top: 0;
@@ -1437,20 +1454,22 @@ header .logo a {
 }
 
 .darkModeItems ul li:nth-child(1) {
-	background-color: red;
+	background-color: #cc005f;
 }
 
 .darkModeItems ul li:nth-child(2) {
-	background-color: blue;
+	background-color: red;
 }
 
 .darkModeItems ul li:nth-child(3) {
-	background-color: yellow;
+	background-color: blue;
 }
 
 .darkModeItems ul li:nth-child(4) {
-	background-color: #cc005f;
+	background-color: purple;
 }
+
+
 
 .intro-social li {
 	display: inline-block;
