@@ -1927,7 +1927,9 @@ header .logo a {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	color: red;
+	color: transparent;
+	text-transform: none;
+	text-decoration: none;
 }
 
 

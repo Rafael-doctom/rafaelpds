@@ -22,6 +22,10 @@ const objSites = [
     {
         name: 'site3',
         image: '../images/bg.jpg'
+    },
+    {
+        name: 'site3',
+        image: '../images/bg.jpg'
     }
 ]
 
@@ -47,7 +51,7 @@ const objAplicativos = [
 
 var mapSites = objSites.map((item) => {
     return `
-    <div class="card2">
+    <div class="card1">
         <img class="imageCard" src=${item.image} alt="sei la"/>
         <a class="hrefCard" href=${item.name}>${item.name}</a>
     </div>`
