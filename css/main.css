@@ -1837,6 +1837,114 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
+
+/* listProject */
+.listProject{
+	display: flex;
+	justify-content: center;
+}
+
+.listProject .reviewButtonProject{
+	display: inline-block;
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	height: 5.4rem;
+	line-height: 5.4rem;
+	padding: 0 3rem;
+	margin: 0 .3rem 1.2rem 0;
+	background: transparent;
+	color: #313131;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.reviewButtonProject:hover{
+	color: #FF0077;
+}
+
+.portfolioAll{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	color: black;
+}
+
+.portfolioSites{
+	display: none;
+	margin: 0 auto;
+	color: black;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.portfolioAplicativos{
+	display: none;
+	margin: 0 auto;
+	color: black;
+}
+
+.contentAllProjects{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.card1{
+	border: 0;
+	border-radius: 10px;
+	padding: 0.35rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 1rem;
+	width: 24vw;
+}
+
+.card2{
+	border: 0;
+	border-radius: 10px;
+	padding: 0.35rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 1rem;
+	width: 24vw;
+}
+
+
+
+.testea{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #portfolio .folio-item {
 	padding: 0;
 	position: relative;
