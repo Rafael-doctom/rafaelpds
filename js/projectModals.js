@@ -38,12 +38,10 @@ const objSites = [
 
 const objAplicativos = [
     {
-        name: 'Aplicativo em desenvolvimeto',
-        image: 'https://s2.glbimg.com/bfDMYQmZunEB3Lqz7KjErgjMneo=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/l/1/vkf9pmRgyFDMcYncUdBA/aplicativo-de-fotos-mais-usados.jpg'
-    },
-    {
-        name: 'Aplicativo em desenvolvimeto',
-        image: 'https://s2.glbimg.com/bfDMYQmZunEB3Lqz7KjErgjMneo=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/l/1/vkf9pmRgyFDMcYncUdBA/aplicativo-de-fotos-mais-usados.jpg'
+        name: 'IMC',
+        image: 'images/portfolio/imc.png',
+        linkHref: 'https://github.com/Rafael-doctom/imc'
+
     }
 ];
 
@@ -60,7 +58,7 @@ let mapAplicativos = objAplicativos.map((item) => {
     return `
         <div class="card1">
             <img class="imageCard" src=${item.image} />
-            <a class="hrefCard" href=${item.name}>${item.name}</a>
+            <a class="hrefCard" href=${item.linkHref}>${item.name}</a>
         </div>`
 });
 
