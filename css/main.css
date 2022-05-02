@@ -1906,8 +1906,28 @@ header .logo a {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin: 0 1rem;
+	margin: 1rem 1rem;
 	width: 24vw;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.card1:hover{
+	background-color: red;
+	height: 10px;
+	transition: 2s ;
+}
+
+.card1:hover  a{
+	background-color: rgba(73, 112, 143, 0.082);
+	color: #FF0077;
+}
+
+.card1  a{
+	font-size: 1.85rem;
+	font-family: "poppins-bold", sans-serif;
+	margin: 1rem 0;
+	background-color: transparent;
 }
 
 .card2{
@@ -1921,9 +1941,27 @@ header .logo a {
 	width: 24vw;
 }
 
+#siteId{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: transparent;
+	margin: 0 auto;
 
+}
 
-.testea{
+#appID{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.portfolioAplicativos{
+	background-color: transparent;
+}
+
+.dFlex{
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
