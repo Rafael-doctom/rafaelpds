@@ -6,32 +6,32 @@ let aplicativos = document.querySelector('.portfolioAplicativos')
 const objSites = [
     {
         name: 'Finans',
-        image: '../images/portfolio/finans.png',
+        image: 'images/portfolio/finans.png',
         linkHref: 'https://rafael-doctom.github.io/finans/'
     },
     {
         name: 'FlexBlog',
-        image: '../images/portfolio/flexBlog.png',
+        image: 'images/portfolio/flexBlog.png',
         linkHref: 'https://rafael-doctom.github.io/FlexBlog/'
     },
     {
         name: 'Caravan',
-        image: '../images/portfolio/caravan.png',
+        image: 'images/portfolio/caravan.png',
         linkHref: 'https://rafael-doctom.github.io/caravan/'
     },
     {
         name: 'Caravan',
-        image: '../images/portfolio/login.png',
+        image: 'images/portfolio/login.png',
         linkHref: 'https://rafael-doctom.github.io/login-localStorage/'
     },
     {
         name: 'Codelandia',
-        image: '../images/portfolio/codelandia.png',
+        image: 'images/portfolio/codelandia.png',
         linkHref: 'https://challenge01-codelandia.netlify.app/'
     },
     {
         name: 'TeamSoft',
-        image: '../images/portfolio/teamSoft.png',
+        image: 'images/portfolio/teamSoft.png',
         linkHref: 'https://team-soft.netlify.app/'
     }
 ];
