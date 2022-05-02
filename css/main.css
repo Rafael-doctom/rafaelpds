@@ -1908,12 +1908,13 @@ header .logo a {
 	text-align: center;
 	margin: 1rem 1rem;
 	width: 24vw;
+	height: 0%;
 	background-color: transparent;
 	cursor: pointer;
 }
 
 .card1:hover{
-	background-color: red;
+	background-color: transparent;
 	height: 10px;
 	transition: 2s ;
 }
@@ -1928,6 +1929,7 @@ header .logo a {
 	font-family: "poppins-bold", sans-serif;
 	margin: 1rem 0;
 	background-color: transparent;
+	cursor: pointer;
 }
 
 .card2{
@@ -1947,7 +1949,6 @@ header .logo a {
 	justify-content: center;
 	background-color: transparent;
 	margin: 0 auto;
-
 }
 
 #appID{
@@ -1961,36 +1962,21 @@ header .logo a {
 	background-color: transparent;
 }
 
-.testeDIv{
-	min-height: 240vh;
-}
-
 .dFlex{
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	/* height: 100%; */
 	color: transparent;
 	text-transform: none;
 	text-decoration: none;
+	background-color: transparent;
 }
 
 
 #appID{
-	min-height: 100vh;
+	background: transparent;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #portfolio .folio-item {
