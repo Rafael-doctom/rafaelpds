@@ -96,7 +96,10 @@ const handleClickApp = () => {
 
 
 document.querySelector(".contentAllProjects").innerHTML = `
-    <div class="dFlex">${mapSites}</div>
-    <div class="dFlex">${mapAplicativos}</div>
+    <div class="testeDIv">
+        <div class="dFlex">${mapSites}</div>
+        <div class="dFlex">${mapAplicativos}</div>
+    </div>
+
 `
 
