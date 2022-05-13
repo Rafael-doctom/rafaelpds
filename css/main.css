@@ -1836,12 +1836,15 @@ header .logo a {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	background-color: red;
 }
 
 /* listProject */
 .listProject{
 	display: flex;
 	justify-content: center;
+	width: 50vw;
+	margin: 0 auto;
 }
 
 .listProject .reviewButtonProject{
@@ -1876,14 +1879,16 @@ header .logo a {
 	width: 80%;
 	margin: 0 auto;
 	color: black;
+
 }
 
 .portfolioSites{
 	display: none;
-	margin: 0 auto;
 	color: black;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .portfolioAplicativos{
@@ -1895,7 +1900,7 @@ header .logo a {
 .contentAllProjects{
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	/* width: 100%; */
 	flex-wrap: wrap;
 }
 
@@ -1911,12 +1916,11 @@ header .logo a {
 	height: 0%;
 	background-color: transparent;
 	cursor: pointer;
+	
 }
 
 .card1:hover{
-	background-color: transparent;
-	height: 10px;
-	transition: 2s ;
+	transition: 2s;
 }
 
 .card1:hover  a{
@@ -1946,7 +1950,7 @@ header .logo a {
 #siteId{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	/* justify-content: center; */
 	background-color: transparent;
 	margin: 0 auto;
 }
@@ -2072,6 +2076,7 @@ header .logo a {
 		font-size: 2.2rem;
 	}
 }
+
 
 /**
  * Popup Modal - (_layout.scss)
@@ -2427,6 +2432,36 @@ header .logo a {
 	}
 }
 
+@media (max-width:425px){
+	.listProject{
+		display: flex;
+		justify-content: center;
+		width: 50vw;
+		margin: 0 auto;
+	}
+
+	.listProject .reviewButtonProject {
+		display: inline-block;
+		font-family: "poppins-bold", sans-serif;
+		font-size: 1.4rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		height: 5.4rem;
+		line-height: 5.4rem;
+		padding: 0 3rem;
+		margin: 0 0.3rem 1.2rem 0;
+		background: transparent;
+		color: #313131;
+		text-decoration: none;
+		cursor: pointer;
+		text-align: center;
+		white-space: nowrap;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-webkit-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+}
 
 /** 
  * ===================================================================
@@ -2751,8 +2786,8 @@ footer .copyright span:last-child::after {
  */
 #go-top {
 	position: fixed;
-	bottom: 0;
-	right: 0;
+	bottom: 10px;
+	right: 15px;
 	z-index: 600;
 	display: none;
 }
