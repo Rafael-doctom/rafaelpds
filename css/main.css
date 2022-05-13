@@ -1866,7 +1866,6 @@ header .logo a {
 .listProject{
 	display: flex;
 	justify-content: center;
-	background-color: red;
 }
 
 .listProject .reviewButtonProject{
