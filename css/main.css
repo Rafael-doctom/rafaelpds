@@ -1294,7 +1294,6 @@
 		width: 90% !important;
 		margin: 0 auto;
 		color: black;
-		background-color: gold;
    
 	}
  }
@@ -1305,7 +1304,6 @@
 		width: 90% !important;
 		margin: 0 auto;
 		color: black;
-		background-color: gold;
 
 		height: 100%;
    
@@ -1319,7 +1317,6 @@
 		flex-wrap: nowrap;
 		width: 90%;
    
-		background-color: rebeccapurple;
 	}
 
 	.dFlex {
@@ -1331,7 +1328,6 @@
 		text-transform: none;
 		text-decoration: none;
 		background-color: transparent;
-		background-color: green;
 		justify-content: center;
 	}
 
@@ -1346,7 +1342,6 @@
 	 .card1 {
 		/* height: 65vh !important; */
 		width: 80vw !important;
-		background-color: red;
 		margin: 1rem auto !important;
 
 	}
@@ -1354,7 +1349,6 @@
 	
 
 	.card1 img{
-		background-color: aqua;
 		/* height: 65vh; */
 		width: 80vw ;
 
@@ -1403,7 +1397,6 @@
  }
  
  .nthChild3{
-	 background-color: blue;
  }
  
  .nthChild4{
@@ -1912,7 +1905,6 @@
 	 background: #FFFFFF;
 	 padding-top: 12rem;
 	 padding-bottom: 12rem;
-	 background-color: red;
  }
  
  /* listProject */
@@ -1920,7 +1912,6 @@
 	 display: flex;
 	 justify-content: center;
 
-	 background-color: blue;
  }
  
  .listProject .reviewButtonProject{
@@ -1956,7 +1947,6 @@
 	 margin: 0 auto;
 	 color: black;
 
-	 background-color: gold;
 
  }
  
@@ -1968,7 +1958,6 @@
 	 flex-wrap: nowrap;
 	 width: 80%;
 
-	 background-color: rebeccapurple;
  }
  
  .portfolioAplicativos{
@@ -1996,7 +1985,6 @@
 	 height: 100%;
 	 background-color: transparent;
 	 cursor: pointer;
-	 background-color: brown;
  }
  
  
@@ -2059,7 +2047,6 @@
 	 text-decoration: none;
 	 background-color: transparent;
 
-	 background-color: green;
  }
  
  
