@@ -1344,18 +1344,19 @@
 	}
 
 	 .card1 {
-		height: 65vh !important;
-		width: 40vw !important;
+		/* height: 65vh !important; */
+		width: 80vw !important;
 		background-color: red;
-		margin: 0 !important;
+		margin: 1rem auto !important;
+
 	}
 
 	
 
 	.card1 img{
 		background-color: aqua;
-		height: 65vh;
-		width: 40vw ;
+		/* height: 65vh; */
+		width: 80vw ;
 
 		background-size: cover;
 	}
