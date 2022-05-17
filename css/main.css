@@ -1287,6 +1287,81 @@
 		 left: 25px;
 	 }
  }
+
+ @media only screen and (max-width:768px){
+	.portfolioAll{
+		display: flex;
+		width: 90% !important;
+		margin: 0 auto;
+		color: black;
+		background-color: gold;
+   
+	}
+ }
+
+ @media only screen and (max-width:425px){
+	.portfolioAll{
+		display: flex;
+		width: 90% !important;
+		margin: 0 auto;
+		color: black;
+		background-color: gold;
+
+		height: 100%;
+   
+	}
+	
+	.portfolioSites{
+		display: none;
+		margin: 0 auto;
+		color: black;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		width: 90%;
+   
+		background-color: rebeccapurple;
+	}
+
+	.dFlex {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		/* height: 100%; */
+		color: transparent;
+		text-transform: none;
+		text-decoration: none;
+		background-color: transparent;
+		background-color: green;
+		justify-content: center;
+	}
+
+	.card1 a {
+		font-size: 1.15rem !important;
+		font-family: "poppins-bold", sans-serif;
+		margin: 1rem 0;
+		background-color: transparent;
+		cursor: pointer;
+	}
+
+	 .card1 {
+		height: 65vh !important;
+		width: 40vw !important;
+		background-color: red;
+		margin: 0 !important;
+	}
+
+	
+
+	.card1 img{
+		background-color: aqua;
+		height: 65vh;
+		width: 40vw ;
+
+		background-size: cover;
+	}
+}
+
+ 
  
  
  /** 
@@ -1836,12 +1911,15 @@
 	 background: #FFFFFF;
 	 padding-top: 12rem;
 	 padding-bottom: 12rem;
+	 background-color: red;
  }
  
  /* listProject */
  .listProject{
 	 display: flex;
 	 justify-content: center;
+
+	 background-color: blue;
  }
  
  .listProject .reviewButtonProject{
@@ -1876,6 +1954,9 @@
 	 width: 80%;
 	 margin: 0 auto;
 	 color: black;
+
+	 background-color: gold;
+
  }
  
  .portfolioSites{
@@ -1884,6 +1965,9 @@
 	 color: black;
 	 flex-direction: row;
 	 flex-wrap: nowrap;
+	 width: 80%;
+
+	 background-color: rebeccapurple;
  }
  
  .portfolioAplicativos{
@@ -1908,10 +1992,12 @@
 	 text-align: center;
 	 margin: 1rem 1rem;
 	 width: 24vw;
-	 height: 0%;
+	 height: 100%;
 	 background-color: transparent;
 	 cursor: pointer;
+	 background-color: brown;
  }
+ 
  
  .card1:hover{
 	 background-color: transparent;
@@ -1946,7 +2032,7 @@
  #siteId{
 	 display: flex;
 	 flex-wrap: wrap;
-	 justify-content: center;
+	 /* justify-content: center; */
 	 background-color: transparent;
 	 margin: 0 auto;
  }
@@ -1954,7 +2040,7 @@
  #appID{
 	 display: flex;
 	 flex-wrap: wrap;
-	 justify-content: center;
+	 /* justify-content: center; */
 	 margin: 0 auto;
  }
  
@@ -1971,6 +2057,8 @@
 	 text-transform: none;
 	 text-decoration: none;
 	 background-color: transparent;
+
+	 background-color: green;
  }
  
  
@@ -2288,6 +2376,8 @@
 	 padding-bottom: 12rem;
 	 color: white;
 	 position: relative;
+
+	 display: none;
  }
  #services .overlay {
 	 position: absolute;
