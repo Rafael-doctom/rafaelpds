@@ -1397,10 +1397,11 @@
  }
  
  .nthChild3{
+	background-color:purple;
  }
  
  .nthChild4{
-	 background-color: purple;
+	 background-color: rgba(32, 32, 223, 0.705);
  }
  
  .intro-overlay {
