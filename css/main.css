@@ -1972,6 +1972,7 @@
 	 flex-direction: row;
 	 width: 100%;
 	 flex-wrap: wrap;
+
  }
  
  .card1{
@@ -1983,24 +1984,40 @@
 	 text-align: center;
 	 margin: 1rem 1rem;
 	 width: 24vw;
-	 height: 100%;
+	 /* height: 100%; */
 	 background-color: transparent;
 	 cursor: pointer;
+
  }
+
+ .card2{
+	border: 0;
+	border-radius: 10px;
+	padding: 0.35rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 1rem 1rem;
+	width: 24vw;
+	/* height: 100%; */
+	background-color: transparent;
+	cursor: pointer;
+
+}
  
  
  .card1:hover{
-	 background-color: transparent;
-	 height: 10px;
-	 transition: 2s ;
+	 /* background-color: transparent; */
+	 /* height: 10px; */
+	 /* transition: 2s ; */
  }
  
- .card1:hover  a{
+ .card1:hover  a, .card2:hover  a {
 	 background-color: rgba(73, 112, 143, 0.082);
 	 color: #FF0077;
  }
  
- .card1  a{
+ .card1  a, .card2 a{
 	 font-size: 1.85rem;
 	 font-family: "poppins-bold", sans-serif;
 	 margin: 1rem 0;
@@ -2025,6 +2042,7 @@
 	 /* justify-content: center; */
 	 background-color: transparent;
 	 margin: 0 auto;
+
  }
  
  #appID{
@@ -2034,9 +2052,7 @@
 	 margin: 0 auto;
  }
  
- .portfolioAplicativos{
-	 background-color: transparent;
- }
+
  
  .dFlex{
 	 display: flex;
@@ -2052,7 +2068,7 @@
  
  
  #appID{
-	 background: transparent;
+	 /* background: transparent; */
  }
  
  
