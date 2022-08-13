@@ -1599,11 +1599,10 @@ header .logo a {
 @media only screen and (max-width:425px) {
 
 	header .btn-lang {
-		background-color: red;
-		margin-right: 1.55rem;
+		margin-right: 1.85rem;
 	}
 	header .btn-lang ul li a{
-		font-size: 2rem;
+		font-size: 2.55rem;
 		margin: 0 1rem;
 	}
 
