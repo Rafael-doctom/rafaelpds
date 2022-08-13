@@ -1371,6 +1371,7 @@ header .btn-lang {
 	top: 0;
 	min-height: 65px;
 	line-height: 65px;
+	margin-right: 2rem;
 }
 
 header .btn-lang ul{
@@ -1596,6 +1597,16 @@ header .logo a {
 }
 
 @media only screen and (max-width:425px) {
+
+	header .btn-lang {
+		background-color: red;
+		margin-right: 1.55rem;
+	}
+	header .btn-lang ul li a{
+		font-size: 2rem;
+		margin: 0 1rem;
+	}
+
 	.portfolioAll {
 		display: flex;
 		width: 90% !important;
