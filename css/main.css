@@ -39,7 +39,6 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 
-
 /** 
   * ===================================================================
   * 02. base style overrides - (_document-setup.scss)
@@ -74,11 +73,13 @@ body {
 }
 
 body {
-	background: #151515;
+	/* background: #151515; */
+	/* background: #151515; */
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	/* color: #6e6e6e; */
+	color: black;
 }
 
 /**
@@ -901,73 +902,6 @@ input::-moz-focus-inner {
 }
 
 
-/** 
-  * ===================================================================
-  * 07. other components - (_others.scss)
-  *
-  * ------------------------------------------------------------------- 
-  */
-
-/**
-  * alert box - (_alert-box.scss)
-  * -------------------------------------------------------------------
-  */
-.alert-box {
-	padding: 2.1rem 4rem 2.1rem 3rem;
-	position: relative;
-	margin-bottom: 3rem;
-	border-radius: 3px;
-	font-family: "poppins-regular", sans-serif;
-	font-size: 1.5rem;
-}
-
-.alert-box .close {
-	position: absolute;
-	right: 1.8rem;
-	top: 1.8rem;
-	cursor: pointer;
-}
-
-.ss-error {
-	background-color: #ffd1d2;
-	color: #e65153;
-}
-
-.ss-success {
-	background-color: #c8e675;
-	color: #758c36;
-}
-
-.ss-info {
-	background-color: #d7ecfb;
-	color: #4a95cc;
-}
-
-.ss-notice {
-	background-color: #fff099;
-	color: #bba31b;
-}
-
-/**
-  * additional typo styles - (_additional-typo.scss)
-  * -------------------------------------------------------------------
-  */
-
-/**
-  * drop cap 
-  */
-.drop-cap:first-letter {
-	float: left;
-	margin: 0;
-	padding: 1.5rem .6rem 0 0;
-	font-size: 8.4rem;
-	font-family: "poppins-bold", sans-serif;
-	line-height: 6rem;
-	text-indent: 0;
-	background: transparent;
-	color: #313131;
-}
-
 /**
   * line definition style
   */
@@ -1341,25 +1275,21 @@ header {
 	width: 100%;
 	min-height: 66px;
 	z-index: 600;
-	background-color: #af246567;
+	/* background-color: #af246567; */
+	box-shadow: 1px 1px 10px 1px rgba(173, 169, 169, 0.802);
 }
 
 header .row {
 	position: relative;
 	min-height: 65px;
 	display: flex;
-	/* flex-direction: row-reverse; */
-	/* align-items: center; */
-	/* justify-content: space-between; */
 }
 
 header .top-bar {
 	display: block;
-	/* background: #000000; */
 	min-width: 220px;
 	min-height: 65px;
 	position: absolute;
-	/* left: 90px; */
 	left: 0px;
 	top: 0;
 
@@ -1374,12 +1304,12 @@ header .btn-lang {
 	margin-right: 2rem;
 }
 
-header .btn-lang ul{
+header .btn-lang ul {
 	display: flex;
 	list-style: none;
 }
 
-header .btn-lang ul li a{
+header .btn-lang ul li a {
 	font-size: 3rem;
 	margin: 0 1rem;
 }
@@ -1390,7 +1320,6 @@ header .logo {
 	margin-right: 50px;
 	margin-top: 25px;
 	position: relative;
-
 }
 
 header .logo a {
@@ -1592,7 +1521,6 @@ header .logo a {
 		width: 90% !important;
 		margin: 0 auto;
 		color: black;
-
 	}
 }
 
@@ -1601,7 +1529,8 @@ header .logo a {
 	header .btn-lang {
 		margin-right: 1.85rem;
 	}
-	header .btn-lang ul li a{
+
+	header .btn-lang ul li a {
 		font-size: 2.55rem;
 		margin: 0 1rem;
 	}
@@ -1611,9 +1540,7 @@ header .logo a {
 		width: 90% !important;
 		margin: 0 auto;
 		color: black;
-
 		height: 100%;
-
 	}
 
 	.portfolioSites {
@@ -1630,7 +1557,6 @@ header .logo a {
 		display: flex;
 		flex-wrap: wrap;
 		width: 100%;
-		/* height: 100%; */
 		color: transparent;
 		text-transform: none;
 		text-decoration: none;
@@ -1647,18 +1573,12 @@ header .logo a {
 	}
 
 	.card1 {
-		/* height: 65vh !important; */
 		width: 80vw !important;
 		margin: 1rem auto !important;
-
 	}
 
-
-
 	.card1 img {
-		/* height: 65vh; */
 		width: 80vw;
-
 		background-size: cover;
 	}
 }
@@ -1673,7 +1593,6 @@ header .logo a {
   * ------------------------------------------------------------------- 
   */
 #intro {
-	/* background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1717,8 +1636,10 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111111;
 	opacity: .85;
+	background-color: white;
+	background-image: url('../images/banner1.jpg');
+	background-size: cover;
 }
 
 .intro-content {
@@ -1731,7 +1652,8 @@ header .logo a {
 }
 
 .intro-content h1 {
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
+	color: rgba(27, 24, 24, 0.641);
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1740,7 +1662,7 @@ header .logo a {
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .intro-content h5 {
@@ -1760,15 +1682,14 @@ header .logo a {
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	color: #FFFFFF;
+	color: rgba(27, 24, 24, 0.641);
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-	/* background-color: red; */
 }
 
 .intro-content .intro-position span {
 	display: inline-block;
-	/* background-color: red; */
-	/* width: 40vw; */
+	color: rgba(27, 24, 24, 0.641);
+
 }
 
 .intro-content .intro-position span::after {
@@ -1776,7 +1697,7 @@ header .logo a {
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 5px;
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(27, 24, 24, 0.641) !important;
 }
 
 .intro-content .intro-position span:first-child::before {
@@ -1784,11 +1705,11 @@ header .logo a {
 	text-align: center;
 	display: inline-block;
 	padding: 0 0px 0 0px;
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(27, 24, 24, 0.641) !important;
 }
 
 .intro-content .button {
-	color: #FFFFFF !important;
+	color: rgba(27, 24, 24, 0.641) !important;
 	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
@@ -1797,6 +1718,7 @@ header .logo a {
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
+	border-bottom: 3px solid #db8bb1;
 }
 
 .intro-content .button:hover,
@@ -1824,6 +1746,7 @@ header .logo a {
 	font-size: 3.3rem;
 	margin: 0;
 	padding: 0;
+
 }
 
 
@@ -1831,11 +1754,14 @@ header .logo a {
 	display: inline-block;
 	margin: 0 20px;
 	padding: 0;
+	color: rgba(27, 24, 24, 0.641);
 }
 
 .intro-social li a,
 .intro-social li a:visited {
 	color: #FFFFFF;
+	color: rgba(27, 24, 24, 0.641);
+
 }
 
 .intro-social li a:hover,
@@ -1934,7 +1860,6 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 
-	/* background-color: red; */
 }
 
 #about .section-intro {
@@ -1943,28 +1868,12 @@ header .logo a {
 
 .intro-info {
 	margin-top: 4.2rem;
-	/* margin-right: -30px; */
-	/* margin-left: -30px; */
-	/* text-align: center; */
-	/* background-color: red; */
 }
 
-.intro-info img {
-	/* height: 9rem;
-	 width: 9rem;
-	 border-radius: 50%;
-	 margin: .9rem 0 0 ;
-	 float: left; */
-	/* height: 7rem; */
-	/* width: 7rem; */
-	/* border-radius: 20%; */
-	/* margin: .9rem 0 0 ; */
-	/* float: left; */
-}
+
 
 .intro-info .lead {
 	text-align: center;
-	/* padding-left: 13rem; */
 }
 
 .about-content {
