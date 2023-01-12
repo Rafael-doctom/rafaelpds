@@ -70,6 +70,8 @@ html {
 html,
 body {
 	height: 100%;
+
+
 }
 
 body {
@@ -891,8 +893,8 @@ button.stroke.large,
 
 button.stroke:hover,
 .button.stroke:hover {
-	border: 3px solid #FF0077;
-	color: #FF0077;
+	/* border: 3px solid #FF0077; */
+	/* color: #FF0077; */
 }
 
 button::-moz-focus-inner,
@@ -1221,6 +1223,8 @@ input::-moz-focus-inner {
 	color: #313131;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
+
+
 }
 
 .section-intro h5 {
@@ -1229,6 +1233,7 @@ input::-moz-focus-inner {
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
+
 }
 
 /**
@@ -1653,7 +1658,6 @@ header .logo a {
 
 .intro-content h1 {
 	/* color: #FFFFFF; */
-	color: rgba(27, 24, 24, 0.641);
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1663,6 +1667,11 @@ header .logo a {
 	margin-left: auto;
 	margin-right: auto;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	color: rgb(255, 255, 255);
+	/* text-shadow:1px 1px #000, -1px 1px #000, 1px -1px #000, -1px -1px #000, 5px 5px 0 rgb(0 0 0 / 20%); */
+
+
+
 }
 
 .intro-content h5 {
@@ -1674,16 +1683,19 @@ header .logo a {
 	text-transform: uppercase;
 	letter-spacing: .3rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	font-family: 'Caveat', cursive;
 }
 
 .intro-content .intro-position {
 	font-family: "Montserrat", sans-serif;
-	font-size: 1.7rem;
+	font-size: 1.2rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	color: rgba(27, 24, 24, 0.641);
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	/* font-family: 'Caveat', cursive; */
+
 }
 
 .intro-content .intro-position span {
@@ -1719,11 +1731,16 @@ header .logo a {
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 	border-bottom: 3px solid #db8bb1;
+
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
 }
 
 .intro-content .button:hover,
 .intro-content .button:focus {
 	border-color: #cc005f;
+
 }
 
 .intro-content .button::after {
@@ -1755,18 +1772,24 @@ header .logo a {
 	margin: 0 20px;
 	padding: 0;
 	color: rgba(27, 24, 24, 0.641);
+
+	color: white;
 }
 
 .intro-social li a,
 .intro-social li a:visited {
 	color: #FFFFFF;
 	color: rgba(27, 24, 24, 0.641);
+	color: white;
 
 }
 
 .intro-social li a:hover,
 .intro-social li a:focus {
 	color: #cc005f;
+
+	/* color: white; */
+
 }
 
 /**
