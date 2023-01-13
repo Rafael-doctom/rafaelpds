@@ -1,0 +1,50 @@
+.companies {
+    width: 100%;
+    min-width: 100%;
+    background-color: #F5F1EC;
+}
+
+.contentCompanies {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.globoplay {
+    width: 20%;
+    height: 5%;
+    margin: 0;
+}
+
+
+.gigaglob {
+    width: 20%;
+    height: 5%;
+    margin: 0;
+}
+
+.megapix {
+    width: 20%;
+    height: 5%;
+    margin: 0;
+}
+
+.telecine {
+    width: 20%;
+    height: 5%;
+    margin: 0;
+}
+
+.sexhot {
+    width: 20%;
+    height: 5%;
+    margin: 0;
+}
+
+.cartola {
+    width: 20%;
+    height: 5%;
+    margin: 0;
+}
