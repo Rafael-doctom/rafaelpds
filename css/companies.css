@@ -48,3 +48,42 @@
     height: 5%;
     margin: 0;
 }
+
+@media (max-width:768px){
+
+    .contentCompanies {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 100%;
+        /* flex-direction: column-reverse; */
+    }
+
+    .globoplay, .cartola, .sexhot, .telecine, .megapix, .gigaglob {
+        width: 50%;
+        max-height: 35%;
+        margin: 0;
+    }
+
+   
+    
+}
+/* 
+@media (max-width:425px){
+
+    .contentCompanies {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .globoplay, .cartola, .sexhot, .telecine, .megapix, .gigaglob {
+        width: 40%;
+        max-height: 15%;
+        margin: 0;
+    }
+
+   
+    
+} */
