@@ -1330,6 +1330,11 @@ header .btn-lang ul {
 header .btn-lang ul li a {
 	font-size: 3rem;
 	margin: 0 1rem;
+	color: white;
+}
+
+header .btn-lang ul li a:hover{
+	color: #ff0077;
 }
 
 header .logo {
