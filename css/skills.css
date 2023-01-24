@@ -3,10 +3,9 @@
     min-width: 100%;
     padding: 5rem 0;
     background-color: #F5F1EC;
-
     position: relative;
     z-index: 0;
-
+    cursor: pointer;
 }
 
 .icon1 {
@@ -14,16 +13,29 @@
     z-index: 999999999999999;
     right: 10%;
     bottom: 12%;
-    min-height: 30vh;
+    height: 50vh;
 }
 
-.icon2 {
+
+@keyframes icon1 {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-50px);
+    }
+}
+
+.icon1{
+	animation: icon1 2s infinite alternate;
+}
+
+/* .icon2 {
     position: absolute;
     z-index: 999999999999999;
     left: 15%;
     bottom: 0;
-}
-
+} */
 
 .skills h1 {
     font-family: "poppins-semibold", serif;
@@ -33,7 +45,6 @@
     margin-bottom: 1.2rem;
     text-align: center;
 }
-
 
 .skills h5 {
     color: #FF0077;
@@ -49,7 +60,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .skill {
@@ -58,17 +68,32 @@
     max-width: 25vw;
     background-color: rgb(250, 250, 250);
     margin: 1rem;
-    border-bottom: 1px solid blue;
+    border-bottom: 3px solid blue;
     overflow: hidden;
-    padding: 30px 30px;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 25px 5px;
+
+
+    opacity: 80%;
+}
+
+.skill:hover{
+    opacity: 100%;
+
+    background: rgb(241, 238, 238);
+
+    background-color: #F5F1EC;
+
+
+
 }
 
 .dflexSkill {
     display: flex;
     flex-direction: column;
     text-align: center;
+    /* padding: 30px 30px; */
+
 }
 
 .dflexSkill h1 {
@@ -77,8 +102,12 @@
     color: rgb(45, 40, 40);
     margin-top: 3rem;
     font-family: "poppins-semibold", serif;
-    font-size: 3.6rem;
+    font-size: 4rem;
     color: #313131;
+
+    text-align: left;
+    padding: 10px 30px;
+
 }
 
 .dflexSkill p {
@@ -86,10 +115,21 @@
     color: #313131;
     font-weight: 300;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding: 0px 30px;
+
+
+
 }
 
 @media (max-width:768px) {
     .skills {
         display: none;
     }
+}
+
+img {
+    padding: 0;
+    /* background-color: red; */
+    margin: 0;
 }
