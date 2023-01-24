@@ -29,4 +29,15 @@ Engenheiro de Software | Desenvolvedor Front-end Jr | React | Node | JavaScript
 - Responsividade
 
 ## Alterações
-- change URL, favicon, description
+- change URL, favicon, description 😀️
+- Usar animações e imagens ilustrativas 😀️
+- deverás usar reactJS? 
+- Consumir API;
+- Avaliar se é possivel utilizar as imagens, dados da empresa e clientes;
+- o que são CASES?
+- alterar mouse by portfolio
+- alterar texto: sobre mim, habilidades 😀️
+- adicione efeito paralalax nas imagens; 
+- remova formulário de contato 😀️
+- alterar texto abaixo do nome 😀️
+- corrigir erros ortográficos do portfolio 😀️
