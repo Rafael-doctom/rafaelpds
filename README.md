@@ -29,11 +29,11 @@ Engenheiro de Software | Desenvolvedor Front-end Jr | React | Node | JavaScript
 - Responsividade
 
 ## Alterações
-- Usar animações e imagens ilustrativas ==========>
+- Usar animações e imagens ilustrativas 😀️
 - deverás usar reactJS?
-- Consumir API;
+- Consumir API; 😀️
 - Avaliar se é possivel utilizar as imagens, dados da VX e clientes;
-- o que são CASES?
+- o que são CASES? 😀️
 - alterar mouse by portfolio
 - alterar texto: sobre mim, habilidades 😀️
 - adicione efeito paralalax nas imagens; 
