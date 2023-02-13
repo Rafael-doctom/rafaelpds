@@ -12,6 +12,8 @@
 }
 
 
+
+
 .globoplay {
     width: 20%;
     height: 5%;
@@ -48,6 +50,32 @@
     height: 5%;
     margin: 0;
 }
+
+.immub {
+    width: 20%;
+    min-height:15%;
+    margin: 0;
+}
+
+.gshow {
+    width: 20%;
+    min-height:15%;
+    margin: 0;
+}
+
+.v4 {
+    width: 20%;
+    min-height:15%;
+    margin: 0;
+}
+
+.programa_miles {
+    width: 20%;
+    min-height:15%;
+    margin: 0;
+}
+
+
 
 @media (max-width:768px){
 
