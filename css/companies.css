@@ -11,8 +11,7 @@
     width: 100%;
 }
 
-
-
+/* 
 
 .globoplay {
     width: 20%;
@@ -73,6 +72,11 @@
     width: 20%;
     min-height:15%;
     margin: 0;
+} */
+
+.bannerteste{
+    background-size: cover;
+    width: 100%;
 }
 
 
@@ -84,14 +88,61 @@
         justify-content: left;
         flex-wrap: wrap;
         width: 100%;
-        /* flex-direction: column-reverse; */
     }
 
-    .globoplay, .cartola, .sexhot, .telecine, .megapix, .gigaglob {
-        width: 50%;
-        max-height: 35%;
+    /* .globoplay,  .telecine, .megapix, .gigaglob {
+        min-width: 50%;
+        background-size: cover;
+
+        background-size: cover;
         margin: 0;
+
+      
+    
+        vertical-align: top;
+        align-items: start;
+        align-self: flex-start;
+        background-size: cover;
     }
+
+    .sexhot{
+        min-width: 50%;
+
+        
+        vertical-align: top;
+        align-items: start;
+        align-self: flex-start;
+        background-size: cover;
+
+        background-repeat: repeat-y;
+    }
+
+    .cartola{
+        background-color: red;
+        min-width: 50%;
+        vertical-align: top;
+        align-items: start;
+        align-self: flex-start;
+        background-repeat: repeat-x;
+
+
+    }
+
+     .immub, .v4, .programa_miles{
+        min-width:50%;
+
+        
+        vertical-align: top;
+        align-items: start;
+        align-self: flex-start;
+        background-size: cover;
+    }
+
+    .gshow{
+        margin-top: -150px;
+        min-width:50%;
+        background-size: cover;
+    } */
 
    
     
