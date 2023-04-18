@@ -44,3 +44,4 @@ Engenheiro de Software | Desenvolvedor Front-end Jr | React | Node | JavaScript
 - remova formulário de contato 😀️
 - alterar texto abaixo do nome 😀️
 - corrigir erros ortográficos do portfolio 😀️
+- adicionar SOM
