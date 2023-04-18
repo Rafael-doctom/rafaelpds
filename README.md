@@ -18,7 +18,7 @@ Engenheiro de Software | Desenvolvedor Front-end Jr | React | Node | JavaScript
 
 ## Stack utilizada
 
-**Front-end:** Html5, Css3, JavaScript...
+**Front-end:** Html5, Css3, JavaScript... or change to reactJS? I go think...
 
 
 ## Licença
@@ -26,7 +26,11 @@ Engenheiro de Software | Desenvolvedor Front-end Jr | React | Node | JavaScript
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Funcionalides:
-- Responsividade
+- Lorem ipsum
+- Lorem ipsum
+- Lorem ipsum
+- Lorem ipsum
+- Lorem ipsum
 
 ## Alterações
 - Usar animações e imagens ilustrativas 😀️
