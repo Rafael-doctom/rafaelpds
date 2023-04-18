@@ -45,3 +45,4 @@ Engenheiro de Software | Desenvolvedor Front-end Jr | React | Node | JavaScript
 - alterar texto abaixo do nome 😀️
 - corrigir erros ortográficos do portfolio 😀️
 - adicionar SOM
+- criar mockup referent a todos os clientes
